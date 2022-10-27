@@ -34,4 +34,5 @@ while True:
     if player2 == "n": break
     colIndex = int(player2[1])-1
     if colIndex < 0 or colIndex > 6: continue
-    print(move2(colIndex))
+    print(move2(colIndex)) 
+    
