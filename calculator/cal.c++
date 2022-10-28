@@ -1,20 +1,21 @@
 #include <iostream>
 #include <string>
+#include <cmath>
+
+double plus(double x, double y){
+    return x + y;
+}
 
 int main(){
+    int x, y;
+    std::cout << "First Number: ";
+    std::cin >> x;
+    std::cout << "Second Number: ";
+    std::cin >> y;
+    
+    double add = plus(x, y);
 
-    int a;
-    int b;
-    int sum;
+    std::cout << add;
 
-    std::cout << "Enter a number: ";
-    std::cin >> a;
-
-    std::cout << "Enter a second number: ";
-    std::cin >> b;
-
-    sum = a + b;
-    std::cout << sum;
-
-    return 0;
 }
+
