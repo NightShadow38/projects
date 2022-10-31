@@ -15,11 +15,10 @@ int main(){
     std::cout << "First Number: ";
     std::cin >> x;
     std::cout << "Symbol: ";
-    std:: cin >> symbol;
+    std::cin >> symbol;
     std::cout << "Second Number: ";
     std::cin >> y;
 
-    
     double add = plus(x, y);
     double sub = minus(x, y);
     double mul = multi(x, y);
@@ -29,7 +28,7 @@ int main(){
     else if(symbol == "-"){std::cout << sub;}
     else if(symbol == "*"){std::cout << mul;}
     else if(symbol == "/"){std::cout << div;}
-    else{std::cout << "error";}
+    else {std::cout << "error";}
 
 }
 
